@@ -2,3 +2,10 @@ categories:
 - database
 labels:
   io.rancher.certified: partner
+questions:
+  - variable: rbac.create
+    label: Create Service Account
+    description: whether the service account created automatically
+    type: boolean
+    default: true
+    group: Services
